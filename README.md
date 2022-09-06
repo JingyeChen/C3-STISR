@@ -28,7 +28,7 @@ Feel free to contact me if you have any problems! zhaomy20@fudan.edu.cn
 
 - Linguistical clue is trained with CTC loss.
 
-- Performance on CNN is changed from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
+- Performance of CNN is boosted from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
 
 ## :fire: Training :fire:
 ```bash
