@@ -28,7 +28,7 @@ Feel free to contact me if you have any problems! zhaomy20@fudan.edu.cn
 
 - Linguistical clue is trained with CTC loss.
 
-- Performance of CNN is boosted from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
+- Performance of CRNN is boosted from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
 ```bash
 evaling easy
 [2022-09-05 14:25:13]	PSNR 22.13 | SSIM 0.8532	
