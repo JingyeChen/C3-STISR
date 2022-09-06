@@ -22,7 +22,7 @@ You can find the rest codes in TPGSR, TATT and STT.
 ## :e-mail: Contact :e-mail:
 Feel free to contact me if you have any problems! zhaomy20@fudan.edu.cn
 
-# :flushed: Difference between the paper :flushed:
+## :flushed: Difference between the paper :flushed:
 
 - Visual clue is removed since it does not help improving recognition performance.
 
@@ -30,14 +30,16 @@ Feel free to contact me if you have any problems! zhaomy20@fudan.edu.cn
 
 - Performance on CNN is changed from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
 
-# :fire: Training :fire:
+## :fire: Training :fire:
 ```bash
 python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr_share --gradient  --use_distill --stu_iter=1 --vis_dir='C3-STISR-Final' --mask
 ```
-# :dizzy: Testing :dizzy:
+## :dizzy: Testing :dizzy:
 ```bash
 python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr_share --gradient  --use_distill --stu_iter=1 --vis_dir='C3-STISR-Final' --mask --go_test --resume='***'
 ```
+## :punch: Performance :punch: ##
+![20220906130237](https://user-images.githubusercontent.com/43022408/188550875-ac52362a-59d8-406a-9c4c-2d90c02d2105.png)
 
 ## :satisfied: Citation :satisfied:
 If you find this project is useful for your research, please cite:
