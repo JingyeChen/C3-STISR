@@ -17,7 +17,7 @@ Since a lot of my works (including reviewing papers) are written in one framewor
 
 - final pth (accessed via email request)
 
-You can find the rest codes in TPGSR and STT.
+You can find the rest codes in TPGSR, TATT and STT.
 
 # :flushed: Difference between the paper :flushed:
 
@@ -26,6 +26,15 @@ You can find the rest codes in TPGSR and STT.
 - Linguistical clue is trained with CTC loss.
 
 - Performance on CNN is changed from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
+
+# :fire: Training :fire:
+```bash
+python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr_share --gradient  --use_distill --stu_iter=1 --vis_dir='C3-STISR-Final' --mask
+```
+# :dizzy: Testing :dizzy:
+```bash
+python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr_share --gradient  --use_distill --stu_iter=1 --vis_dir='C3-STISR-Final' --mask --go_test --resume='***'
+```
 ## :wink: Related Works :wink:
 · Text Gestalt: Stroke-Aware Scene Text Image Super-Resolution [[Paper]](https://arxiv.org/pdf/2112.08171.pdf) [[Code]](https://github.com/FudanVI/FudanOCR)
 
