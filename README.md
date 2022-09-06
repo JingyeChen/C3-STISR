@@ -29,7 +29,30 @@ Feel free to contact me if you have any problems! zhaomy20@fudan.edu.cn
 - Linguistical clue is trained with CTC loss.
 
 - Performance of CNN is boosted from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
-
+```bash
+evaling easy
+[2022-09-05 14:25:13]	PSNR 22.13 | SSIM 0.8532	
+save display images
+sr_accuray_iter0: 65.60%
+lr_accuray: 37.49%
+hr_accuray: 76.41%
+best_easy = 65.60%*
+evaling medium
+[2022-09-05 14:25:29]	PSNR 18.98 | SSIM 0.6449	
+save display images
+sr_accuray_iter0: 53.44%
+lr_accuray: 21.40%
+hr_accuray: 75.05%
+best_medium = 54.43%
+evaling hard
+[2022-09-05 14:25:45]	PSNR 19.75 | SSIM 0.7125	
+save display images
+sr_accuray_iter0: 39.91%
+lr_accuray: 21.15%
+hr_accuray: 64.56%
+best_hard = 39.91%*
+saving best model
+```
 ## :fire: Training :fire:
 ```bash
 python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr_share --gradient  --use_distill --stu_iter=1 --vis_dir='C3-STISR-Final' --mask
