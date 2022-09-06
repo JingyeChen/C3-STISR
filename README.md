@@ -19,6 +19,9 @@ Since a lot of my works (including reviewing papers) are written in one framewor
 
 You can find the rest codes in TPGSR, TATT and STT.
 
+## :e-mail: Contact :e-mail:
+Feel free to contact me if you have any problems! zhaomy20@fudan.edu.cn
+
 # :flushed: Difference between the paper :flushed:
 
 - Visual clue is removed since it does not help improving recognition performance.
@@ -35,6 +38,19 @@ python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr
 ```bash
 python3 main.py --arch="c3stisr" --test_model="CRNN" --batch_size=48 --STN  --sr_share --gradient  --use_distill --stu_iter=1 --vis_dir='C3-STISR-Final' --mask --go_test --resume='***'
 ```
+
+## :satisfied: Citation :satisfied:
+If you find this project is useful for your research, please cite:
+```
+@inproceedings{zhao2022c3,
+  title={C3-STISR: Scene Text Image Super-resolution with Triple Clues},
+  author={Zhao, Minyi and Wang, Miao and Bai, Fan and Li, Bingjia and Wang, Jie and Zhou, Shuigeng},
+  booktitle={IJCAI},
+  pages={1707--1713},
+  year={2022}
+}
+```
+
 ## :wink: Related Works :wink:
 · Text Gestalt: Stroke-Aware Scene Text Image Super-Resolution [[Paper]](https://arxiv.org/pdf/2112.08171.pdf) [[Code]](https://github.com/FudanVI/FudanOCR)
 
