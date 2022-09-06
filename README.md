@@ -15,7 +15,7 @@ Since a lot of my works (including reviewing papers) are written in one framewor
 
 - log
 
-- final pth 
+- final pth (accessed via email request)
 
 You can find the rest codes in TPGSR and STT.
 
