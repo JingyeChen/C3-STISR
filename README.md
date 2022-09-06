@@ -7,7 +7,25 @@ The code will be gradually open source!
 
 Due to company policy, I can't provide the code. To guarantee reproducibility, I am working on reimplement C3-STISR. The final result will be released around September. Thank you all for your support.
 
+Since a lot of my works (including reviewing papers) are written in one framework, I decide not to release the complete code. Instead, following items are released for reproducibility:
 
+- model scrits
+
+- training scripts
+
+- log
+
+- final pth 
+
+You can find the rest codes in TPGSR and STT.
+
+# :flushed: Difference between the paper :flushed:
+
+- Visual clue is removed since it does not help improving recognition performance.
+
+- Linguistical clue is trained with CTC loss.
+
+- Performance on CNN is changed from 65.2\%/53.6\%/39.8\% to 65.6\%/53.4\%/39.9\%.
 ## :wink: Related Works :wink:
 · Text Gestalt: Stroke-Aware Scene Text Image Super-Resolution [[Paper]](https://arxiv.org/pdf/2112.08171.pdf) [[Code]](https://github.com/FudanVI/FudanOCR)
 
